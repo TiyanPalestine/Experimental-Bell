@@ -1,11 +1,11 @@
 {
   "owner": [
-    "628xxxxxxx"
+    "6285972533957","6283862356347"
   ],
   "botname": "(Experimental) -▪︎ Bella-AI",
   "botfullname": "Bella clarissa",
   "botnickname": "Bella",
-  "ownername": "rifza",
+  "ownername": "TIYANZ",
   "locale": "id",
   "cfg": {
     "public": true,
@@ -20,7 +20,7 @@
     "autoreadgc": true,
     "welcome": "linkpreview",
     "first": {
-      "energy": 200,
+      "energy": 2000,
       "flow": 1,
       "coins": 1,
       "chargeRate": 0.003,
@@ -33,7 +33,7 @@
         "time": "1hari"
       },
       "autoai": {
-        "max": 50,
+        "max": 500,
         "delay": 3600000
       }
     },
