@@ -619,7 +619,7 @@ async function In({ cht,Exp,store,is,ev }) {
 						  }
 						case "donasi": 
 						  noreply = true
-						  return Exp.sendMessage(cht.id, { image: { url: "https://files.catbox.moe/7wqoq2.jpg" }, caption: config?.msg }, { quoted: cht })
+						  return Exp.sendMessage(cht.id, { image: { url: "https://cdn.xtermai.xyz/0d4Yh.jpg" }, caption: config?.msg }, { quoted: cht })
 						case 'tiktok':
 						case 'pinterestdl':
 						case 'menu':
