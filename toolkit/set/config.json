@@ -78,7 +78,7 @@
     "editmsg": true,
     "call": {
       "block": false,
-      "reject": true
+      "reject": false
     },
     "models": {
       "checkpoint": 1552,
