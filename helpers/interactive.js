@@ -726,7 +726,7 @@ async function In({ cht,Exp,store,is,ev }) {
 				}
 			}  break
 		    case isSalam:
-			    cht.reply("Wa'alaikumussalaam...")
+			    cht.reply("wa'alaikumussalam warahmatullahi wabarakatuh ...")
 			   break
 			   
 			case isAntiTagOwner: {
