@@ -159,7 +159,14 @@ ${infos.others.readMore}
            cht.reply(infos.messages.failed)
         }
     })
-    
+    > ev.on({ 
+  cmd: ['owner'], 
+  listmenu: ['owner'],
+  tag: 'others'
+}, async({ cht })=> {
+  await Exp.sendContacts(cht, owner.map(a => String(a)))
+   cht.reply(`Hai kak itu owner ${botname} ya`)
+})
     ev.on({ 
         cmd: ['statistic','stats'],
         listmenu: ['stats'],
