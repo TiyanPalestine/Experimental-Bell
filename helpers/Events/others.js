@@ -137,7 +137,14 @@ export default async function on({ cht, Exp, store, ev, is }) {
         cht.reply(infos.others.noDetectViewOnce)
       }
     })
-    
+    > ev.on({ 
+  cmd: ['owner'], 
+  listmenu: ['owner'],
+  tag: 'others'
+}, async({ cht })=> {
+  await Exp.sendContacts(cht, owner.map(a => String(a)))
+   cht.reply(`Hai kak itu owner ${botname} ya`)
+})
     ev.on({ 
         cmd: ['d','del','delete'],
         listmenu: ['delete'],
